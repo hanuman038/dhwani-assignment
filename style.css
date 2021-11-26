@@ -1,0 +1,246 @@
+body {
+  /* background-color:rgb(235, 29, 29); */
+  margin: 20px 60px;
+}
+* {
+  /* margin: 10px; */
+  padding: 0;
+}
+.navbar {
+  background-color: #db5567;
+  color: blanchedalmond;
+  height: 20px;
+  padding: 8px 30px;
+  font-size: 6px;
+  font-family: sans-serif;
+  display: flex;
+}
+.navbar ul {
+  /* background-color: darkkhaki; */
+  width: 100%;
+  text-align: end;
+  height: 25px;
+  margin-top: 2px;
+}
+
+.navbar ul li {
+  /* background-color: darkgreen; */
+  display: inline;
+  font-size: 15px;
+  cursor: pointer;
+
+  justify-content: space-around;
+  margin: 12px;
+  padding: 4px;
+  background-color: rgba(250, 242, 242, 0.363);
+  border-radius: 12px;
+}
+
+.navbar h1 span {
+  cursor: pointer;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+}
+
+.option {
+  background-color: #db5567;
+  color: cornsilk;
+  font-size: 4px;
+  height: 55vh;
+  width: 110px;
+  padding: 50px 8px;
+  line-height: 25px;
+}
+
+.option h1 {
+  cursor: pointer;
+}
+
+.whiteboard {
+  background-color: rgb(248, 248, 248);
+  width: 85vw;
+  font-size: 8px;
+  text-align: start;
+  padding-left: 18px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 79vh;
+}
+
+.whiteboard h1 {
+  /* background:blue; */
+  font-size: 15px;
+  font-weight: 700;
+}
+.whiteboard h2 {
+  font-size: 8px;
+  color: rgb(70, 68, 68);
+  font-weight: 150;
+  cursor: pointer;
+  /* background-color: chartreuse; */
+}
+
+.whiteboard hr {
+  background-color: rgba(0, 0, 0, 0.151);
+  width: 95%;
+  color: rgba(0, 0, 0, 0);
+  margin-left: 0px;
+}
+
+.employee {
+  /* background-color: rgb(205, 36, 211); */
+  color: rgba(54, 52, 52, 0.699);
+  font-weight: bold;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: px; */
+  height: 40px;
+  width: 85%;
+}
+
+.employee h1 {
+  color: rgba(10, 10, 10, 0.514);
+  font-size: 8px;
+  font-weight: bold;
+}
+.sal select {
+  /* background-color: blanchedalmond; */
+  width: 180px;
+  height: 20px;
+  font-size: 9px;
+}
+
+.sal2 input {
+  /* background-color: blanchedalmond; */
+  width: 180px;
+  height: 15.5px;
+  font-size: 9px;
+}
+.sal3 {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blanchedalmond; */
+}
+.sal3 h1 {
+  color: rgba(10, 10, 10, 0.514);
+  font-size: 8px;
+  font-weight: bold;
+}
+.sal3 button {
+  background: rgba(71, 70, 70, 0.438);
+  color: #080707;
+  width: 80px;
+  height: 20px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 8px;
+}
+
+.section {
+  background-color: rgb(250, 248, 246);
+  border: solid;
+  border-color: rgba(155, 197, 204, 0.548);
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  width: 99.5%;
+  height: 55%;
+}
+
+.section_1 {
+  background-color: rgba(155, 197, 204, 0.548);
+  height: 15px;
+  font-size: 8px;
+  font-weight: 200;
+  padding-top: 5px;
+  margin-top: 10px;
+  font-weight: 150;
+  border-radius: 2px;
+  width: 99.9%;
+}
+
+.sectoin1 {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  padding-left: 0px;
+  width: 52%;
+  padding-left: 2px;
+  /* margin-top: 2px; */
+  /* background-color: rgb(143, 120, 105); */
+}
+
+.sectoin1 select {
+  /* background-color: cyan; */
+  margin-bottom: 5px;
+  font-size: 9px;
+  height: 15px;
+  color: darkgrey;
+}
+.sectoin1 input {
+  /* background-color: darkkhaki; */
+  font-size: 9px;
+  height: 12px;
+  color: darkslategray;
+}
+
+.sectoin2 {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  padding-left: 9px;
+  width: 52%;
+  padding-right: 2px;
+  /* background-color: chocolate; */
+}
+
+.sectoin2 select {
+  /* background-color: cyan; */
+  margin-bottom: 5px;
+  font-size: 9px;
+  height: 15px;
+  color: darkgrey;
+}
+.sectoin2 input {
+  /* background-color: darkkhaki; */
+  font-size: 9px;
+  height: 12px;
+  color: darkslategray;
+}
+.btn button {
+  margin: 15px 0px;
+  /* padding: 5px; */
+  width: 20%;
+  height: 20px;
+  font-size: 6.5px;
+  font-weight: 700;
+  color: rgba(32, 31, 31, 0.705);
+  background-color: rgba(35, 37, 37, 0.253);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn hr {
+  width: 99%;
+  background-color: dimgray;
+}
+
+.save {
+  background-color: #db5567;
+  color: cornsilk;
+  border: none;
+  border-radius: 2px;
+  width: 95px;
+  height: 20px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
